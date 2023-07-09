@@ -18,7 +18,7 @@ app.asana.com##div.TopbarPageHeaderStructure-titleRow:style(margin-top: -4px !im
 app.asana.com##div.PageToolbarStructure-leftChildren > div.SecondaryButton:style(width: 28px !important; justify-content: left !important)
 app.asana.com##div.PageToolbarStructure-leftChildren > div.SecondaryButton > svg:style(margin-right: 10px !important;)
 app.asana.com##div.PageToolbarStructure-leftChildren:style(pointer-events: all !important; margin-right: unset !important; margin-left: auto !important;)
-app.asana.com##div.PageToolbarStructure-rightChildren:style(pointer-events: all !important;)
+app.asana.com##div.PageToolbarStructure-rightChildren:style(pointer-events: all !important; margin-left: unset !important;)
 app.asana.com##div.PageToolbarStructure-rightChildren > div.SubtleToggleButton:style(width: 30px !important; justify-content: left !important;)
 app.asana.com##div.PageToolbarStructure-rightChildren > div.SubtleToggleButton > svg:style(margin-right: 10px !important;)
 app.asana.com##div.InboxFilterRow-toolbar:style(background-color: transparent !important; border-top: unset !important; z-index: 400 !important; pointer-events: none !important;)
