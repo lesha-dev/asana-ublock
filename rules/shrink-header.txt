@@ -1,4 +1,4 @@
-! Title: Asana annoyances – Shrink the size of Inbox and Project header
+! Title: Lesha's Asana annoyances – Shrink the size of Inbox and Project header
 ! Expires: 7 days
 ! Last modified: %timestamp%
 ! Homepage: https://github.com/lesha-dev/asana-ublock
