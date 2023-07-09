@@ -1,0 +1,34 @@
+! Title: Asana annoyances – Shrink the size of Inbox and Project header
+! Expires: 7 days
+! Last modified: %timestamp%
+! Homepage: https://github.com/lesha-dev/asana-ublock
+
+! Merge project header with link panel
+app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-topSection:style(height: auto !important;)
+app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-titleAndBreadcrumbs:style(justify-content: left !important;)
+app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-navMenuRow:style(margin-top: -20px !important; padding-left: 64px !important;)
+app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs--withNavMenu:style(height: auto !important;)
+app.asana.com##div.AsanaBaseTopbar-pageHeader:style(padding-top: 9px !important; padding-right: 600px !important;)
+app.asana.com##div.AsanaBaseTopbar:style(min-height: 0px !important;)
+app.asana.com##div.PageToolbarStructure:style(height: auto !important; padding-top: 4px !important; padding-bottom: 4px !important;)
+
+! Merge inbox header with link panel
+app.asana.com##div.TopbarPageHeaderStructure:style(height: auto !important;)
+app.asana.com##div.TopbarPageHeaderStructure-titleRow:style(margin-top: -4px !important;)
+app.asana.com##div.PageToolbarStructure-leftChildren > div.SecondaryButton:style(width: 28px !important; justify-content: left !important)
+app.asana.com##div.PageToolbarStructure-leftChildren > div.SecondaryButton > svg:style(margin-right: 10px !important;)
+app.asana.com##div.PageToolbarStructure-leftChildren:style(pointer-events: all !important;)
+app.asana.com##div.PageToolbarStructure-rightChildren:style(pointer-events: all !important;)
+app.asana.com##div.PageToolbarStructure-rightChildren > div.SubtleToggleButton:style(width: 30px !important; justify-content: left !important;)
+app.asana.com##div.PageToolbarStructure-rightChildren > div.SubtleToggleButton > svg:style(margin-right: 10px !important;)
+app.asana.com##div.InboxFilterRow-toolbar:style(padding-left: 312px !important; background-color: transparent !important; border-top: unset !important; z-index: 400 !important; pointer-events: none !important;)
+app.asana.com##div.Inbox-feedPane:style(margin-top: -36px !important;)
+
+! Merge search panel with header
+app.asana.com##div.GlobalTopbarStructure-leftSide:style(flex-grow: unset !important; pointer-events: all !important;)
+app.asana.com##span.OmnibuttonCorangeSidebarButton-label
+app.asana.com##div.GlobalTopbarStructure:style(width: auto !important; min-width: auto !important; justify-content: end !important; column-gap: 0px !important; background-color: transparent !important; border-bottom: unset !important; margin-bottom: -60px !important; padding-top: 8px !important; z-index: 500 !important; pointer-events: none !important;)
+app.asana.com##div.GlobalTopbarStructure-rightSide:style(justify-content: unset !important; margin-right: 5px !important; flex-grow: unset !important; pointer-events: all !important;)
+app.asana.com##div.GlobalTopbarStructure-search:style(pointer-events: all !important;)
+app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton:style(width: 28px !important; justify-content: flex-start !important;)
+app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton > svg:style(margin-right: 10px !important;)
