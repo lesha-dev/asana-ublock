@@ -5,6 +5,7 @@ List of enhacements:
 - move search panel back to header to save vertical space
 - reduce height of headers for Inbox and Project pages
 - remove sticky date separators from Inbox to save space
+- reduce height of task window (remove useless paddings, block Description label and privacy notice, move field links to the right)
 
 How to use:
 
