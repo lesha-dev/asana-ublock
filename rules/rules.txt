@@ -12,6 +12,7 @@ app.asana.com##div.AsanaBaseTopbar-pageHeader:style(padding-top: 9px !important;
 app.asana.com##div.AsanaBaseTopbar:style(min-height: 0px !important;)
 app.asana.com##div.PageToolbarStructure:style(height: auto !important; padding-top: 4px !important; padding-bottom: 4px !important;)
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-titleAndBreadcrumbs > div.RoutesBreadcrumb:style(margin-top: -8px !important; margin-bottom: -8px !important;)
+app.asana.com##div.CustomizePane--grid:style(height: calc(100% - 34px - 3px) !important; top: 37px !important)
 
 ! Merge inbox header with link panel
 app.asana.com##div.TopbarPageHeaderStructure:style(height: auto !important;)
