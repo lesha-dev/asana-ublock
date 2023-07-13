@@ -37,3 +37,18 @@ app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton > svg:style(margin-ri
 
 ! Remove stuck timestamp separator from Inbox
 app.asana.com##div.InboxTimeSeparator--stuck
+
+! Reduce height of task panel
+app.asana.com##div.TaskPane-header:style(height: 36px !important)
+app.asana.com##div.LabeledRowStructure:has-text(Add GitHub pull request)
+app.asana.com##div.TaskPaneFields-taskDescription
+app.asana.com##div.TaskPaneFields-showMoreCustomFieldsContainer:style(margin-top: -40px !important;)
+app.asana.com##div.TaskPaneFields-showMoreCustomFieldsContainer > span:style(margin-left: auto !important;)
+app.asana.com##div.TaskPane-addSubtaskButton:style(margin-bottom: 0px !important;)
+app.asana.com##div.FollowersBar:style(padding-top: 0px !important; padding-bottom: 0px !important;)
+app.asana.com##div.FollowersBar-editableFollowersRow:style(min-height: unset !important;)
+app.asana.com##div.EditableFollowersRow-followersList:style(padding-top: 0px !important; padding-bottom: 0px !important;)
+app.asana.com##div.TaskPane-commentComposer:style(padding-bottom: 0px !important;)
+app.asana.com##div.TaskProjects-addToProjects:style(margin-top: -32px !important; margin-left: auto !important;)
+app.asana.com##.TextEditorFixedToolbar--hidden
+app.asana.com##span[class*=TaskPrivacyBanner]
