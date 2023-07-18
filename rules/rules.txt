@@ -53,6 +53,9 @@ app.asana.com##div.FollowersBar-editableFollowersRow:style(min-height: unset !im
 app.asana.com##div.EditableFollowersRow-followersList:style(padding-top: 0px !important; padding-bottom: 0px !important;)
 app.asana.com##div.TaskPane-commentComposer:style(padding-bottom: 0px !important;)
 app.asana.com##div.TaskProjects-addToProjects:style(margin-top: -32px !important; margin-left: auto !important;)
+app.asana.com##div.TaskPaneFields-loadMoreContainer:style(margin-bottom: -36px !important;)
+app.asana.com##span.TaskPaneFields-loadMore:style(margin-left: auto !important; z-index: 1 !important;)
+app.asana.com##div.TaskDependencies-showCompletedLink:style(margin-left: auto !important; margin-top: -28px !important;)
 app.asana.com##.TextEditorFixedToolbar--hidden
 app.asana.com##span[class*=TaskPrivacyBanner]
 app.asana.com##div.FocusModePage:style(padding-top: 0px !important;)
