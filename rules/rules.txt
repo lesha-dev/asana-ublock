@@ -14,6 +14,9 @@ app.asana.com##div.PageToolbarStructure:style(height: auto !important; padding-t
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-titleAndBreadcrumbs > div.RoutesBreadcrumb:style(margin-top: -8px !important; margin-bottom: -8px !important;)
 app.asana.com##div.CustomizePane--grid:style(height: calc(100% - 34px - 3px) !important; top: 37px !important)
 
+! Remove double scrollbar in Project while selecting multiple tasks
+app.asana.com##div.AsanaMain-scrollableContent:style(overflow: hidden !important;)
+
 ! Merge inbox header with link panel
 app.asana.com##div.TopbarPageHeaderStructure:style(height: auto !important;)
 app.asana.com##div.TopbarPageHeaderStructure-titleRow:style(margin-top: -4px !important;)
