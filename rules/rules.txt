@@ -55,3 +55,4 @@ app.asana.com##div.TaskPane-commentComposer:style(padding-bottom: 0px !important
 app.asana.com##div.TaskProjects-addToProjects:style(margin-top: -32px !important; margin-left: auto !important;)
 app.asana.com##.TextEditorFixedToolbar--hidden
 app.asana.com##span[class*=TaskPrivacyBanner]
+app.asana.com##div.FocusModePage:style(padding-top: 0px !important;)
