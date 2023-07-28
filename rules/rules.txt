@@ -41,6 +41,12 @@ app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton > svg:style(margin-ri
 ! Remove stuck timestamp separator from Inbox
 app.asana.com##div.InboxTimeSeparator--stuck
 
+! Widen size of custom fields in project spreadsheet
+app.asana.com##div.SpreadsheetCustomPropertyEnumCell-field:style(position: relative !important;)
+app.asana.com##div.SpreadsheetCustomPropertyEnumCell-field > svg:style(position: absolute !important; right: 12px !important;)
+app.asana.com##div.SpreadsheetHeaderColumn:style(position: relative !important;)
+app.asana.com##div.SpreadsheetHeaderColumn > div.ThemeableIconButtonPresentation:style(position: absolute !important; right: 0px !important;)
+
 ! Reduce height of task panel
 app.asana.com##div.TaskPane-header:style(height: 36px !important)
 app.asana.com##div.LabeledRowStructure:has-text(Add GitHub pull request)
