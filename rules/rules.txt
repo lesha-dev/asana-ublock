@@ -67,5 +67,7 @@ app.asana.com##span[class*=TaskPrivacyBanner]
 app.asana.com##div.FocusModePage:style(padding-top: 0px !important;)
 
 ! Fix code text block visuals
+app.asana.com##div.RichText3-paragraph:style(overflow: visible !important;)
+app.asana.com##p.ProsemirrorEditor-paragraph:style(overflow: visible !important;)
 app.asana.com##div.RichText3-paragraph > code:style(border: none !important; border: none !important; padding-top: 3px !important; padding-bottom: 3px !important;)
 app.asana.com##p.ProsemirrorEditor-paragraph > code:style(border: none !important; border: none !important; padding-top: 3px !important; padding-bottom: 3px !important;)
