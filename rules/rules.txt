@@ -8,7 +8,7 @@ app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-topSection:style(hei
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-titleAndBreadcrumbs:style(justify-content: left !important;)
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-navMenuRow:style(margin-top: -20px !important; padding-left: 64px !important;)
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs--withNavMenu:style(height: auto !important;)
-app.asana.com##div.AsanaBaseTopbar-pageHeader:style(padding-top: 9px !important; padding-right: 600px !important;)
+app.asana.com##div.AsanaBaseTopbar-pageHeader:style(padding-top: 9px !important; padding-right: 620px !important;)
 app.asana.com##div.AsanaBaseTopbar:style(min-height: 0px !important;)
 app.asana.com##div.PageToolbarStructure:style(height: auto !important; padding-top: 4px !important; padding-bottom: 4px !important;)
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-titleAndBreadcrumbs > div.RoutesBreadcrumb:style(margin-top: -8px !important; margin-bottom: -8px !important;)
