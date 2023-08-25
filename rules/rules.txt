@@ -74,6 +74,9 @@ app.asana.com##div.TaskDependencies-showCompletedLink:style(margin-left: auto !i
 app.asana.com##.TextEditorFixedToolbar--hidden
 app.asana.com##span[class*=TaskPrivacyBanner]
 app.asana.com##div.FocusModePage:style(padding-top: 0px !important;)
+app.asana.com##div.TaskStoryFeed > div.TaskStoryFeed-dropdownButton:style(position: absolute !important; right: 0px !important; z-index: 10 !important;)
+app.asana.com##div.TaskStoryFeed > div.TaskStoryFeed-dropdownButton:style(position: absolute !important; right: 0px !important; z-index: 10 !important;)
+app.asana.com##div.TaskStoryFeed > div.FeedBlockStory:nth-of-type(2):style(padding-right: 100px !important;)
 
 ! Fix code text block visuals
 app.asana.com##div.RichText3-paragraph:style(overflow: visible !important;)
