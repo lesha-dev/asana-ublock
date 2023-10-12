@@ -26,6 +26,7 @@ app.asana.com##div.Breadcrumb > a > div.Typography:style(font-size: 12px !import
 ! Remove double scrollbar in Project while selecting multiple tasks
 app.asana.com##div.AsanaMain-scrollableContent:style(overflow: hidden !important;)
 
+
 ! Merge inbox header with link panel
 app.asana.com##div.TopbarPageHeaderStructure:style(height: auto !important;)
 app.asana.com##div.TopbarPageHeaderStructure-titleRow:style(margin-right: 8px !important; margin-top: -4px !important; height: 48px !important; align-items: end !important;)
