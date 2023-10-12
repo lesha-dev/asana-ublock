@@ -51,7 +51,6 @@ app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton:style(width: 28px !im
 app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton > svg:style(margin-right: 10px !important;)
 app.asana.com##div.GlobalTopbar-toggleSidebarButton:style(fill: var(--color-text) !important;)
 
-
 ! Remove stuck timestamp separator from Inbox
 app.asana.com##div.InboxTimeSeparator--stuck
 
