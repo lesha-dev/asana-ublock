@@ -40,6 +40,7 @@ app.asana.com##div.InboxFilterRow-toolbar:style(background-color: transparent !i
 app.asana.com##div.Inbox-feedPane:style(top: -36px !important;)
 app.asana.com##div.Inbox-detailsPane:style(top: 4px !important; z-index: 200 !important;)
 
+
 ! Merge search panel with header
 app.asana.com##div.GlobalTopbarStructure-leftSide:style(flex-grow: unset !important; pointer-events: all !important; margin-top: -18px !important;)
 app.asana.com##span.OmnibuttonCorangeSidebarButton-label
