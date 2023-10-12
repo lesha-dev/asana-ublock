@@ -23,6 +23,11 @@ app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-titleRightElement:st
 app.asana.com##div.Breadcrumb > a > div.Typography:style(font-size: 12px !important;)
 
 
+! Project page
+app.asana.com##div.FullWidthPageStructureWithDetailsOverlay-mainContent:style(margin-top: 18px !important;)
+app.asana.com##div.FullWidthPageStructureWithDetailsOverlay-mainContent div.TopbarPageHeaderStructureWithBreadcrumbs--withNavMenu:style(max-width: 650px !important;)
+app.asana.com##div.FullWidthPageStructureWithDetailsOverlay-detailsOverlay:style(margin-top: 65px !important;)
+
 ! Remove double scrollbar in Project while selecting multiple tasks
 app.asana.com##div.AsanaMain-scrollableContent:style(overflow: hidden !important;)
 
