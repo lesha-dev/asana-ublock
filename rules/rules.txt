@@ -42,11 +42,11 @@ app.asana.com##div.Inbox-detailsPane:style(z-index: 200 !important;)
 
 
 ! Merge search panel with header
-app.asana.com##div.GlobalTopbarStructure-leftSide:style(flex-grow: unset !important; pointer-events: all !important; margin-top: -22px !important;)
+app.asana.com##div.GlobalTopbarStructure-leftSide:style(flex-grow: unset !important; pointer-events: all !important; margin-top: -24px !important;)
 app.asana.com##span.OmnibuttonCorangeSidebarButton-label
 app.asana.com##div.GlobalTopbarStructure:style(width: auto !important; min-width: auto !important; justify-content: end !important; column-gap: 0px !important; background-color: transparent !important; border-bottom: unset !important; margin-bottom: -60px !important; padding-top: 8px !important; z-index: 500 !important; pointer-events: none !important;)
-app.asana.com##div.GlobalTopbarStructure-rightSide:style(justify-content: unset !important; margin-right: 5px !important; flex-grow: unset !important; pointer-events: all !important; margin-top: -18px !important;)
-app.asana.com##div.GlobalTopbarStructure-search:style(pointer-events: all !important; margin-top: -20px !important;)
+app.asana.com##div.GlobalTopbarStructure-rightSide:style(justify-content: unset !important; margin-right: 5px !important; flex-grow: unset !important; pointer-events: all !important; margin-top: -22px !important;)
+app.asana.com##div.GlobalTopbarStructure-search:style(pointer-events: all !important; margin-top: -22px !important;)
 app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton:style(width: 28px !important; justify-content: flex-start !important;)
 app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton > svg:style(margin-right: 10px !important;)
 app.asana.com##div.GlobalTopbar-toggleSidebarButton:style(fill: var(--color-text) !important;)
