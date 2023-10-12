@@ -42,7 +42,7 @@ app.asana.com##div.InboxFilterRow-toolbar > div.PageToolbarStructure-rightChildr
 app.asana.com##div.InboxFilterRow-toolbar > div.PageToolbarStructure-rightChildren > div.SubtleToggleButton:style(width: 30px !important; justify-content: left !important;)
 app.asana.com##div.InboxFilterRow-toolbar > div.PageToolbarStructure-rightChildren > div.SubtleToggleButton > svg:style(margin-right: 10px !important;)
 app.asana.com##div.InboxFilterRow-toolbar:style(background-color: transparent !important; border-top: unset !important; z-index: 400 !important; pointer-events: none !important;)
-app.asana.com##div.Inbox-feedPane:style(top: -36px !important;)
+app.asana.com##div.Inbox-feedPane:style(top: -36px !important; height: calc(100% + 36px) !important;)
 app.asana.com##div.Inbox-detailsPane:style(z-index: 200 !important;)
 
 
