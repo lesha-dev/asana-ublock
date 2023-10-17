@@ -3,6 +3,9 @@
 ! Last modified: %timestamp%
 ! Homepage: https://github.com/lesha-dev/asana-ublock
 
+! Remove upgrade button
+app.asana.com##div.GlobalTopbar-upgradeButton
+
 ! Merge project header with link panel
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-topSection:style(height: auto !important;)
 app.asana.com##div.TopbarPageHeaderStructure-titleAndNav:style(flex-direction: row !important; height: 50px !important; )
