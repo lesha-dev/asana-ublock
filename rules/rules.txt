@@ -29,22 +29,30 @@ app.asana.com##div.TopbarPageHeaderStructure:style(height: 100% !important; min-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! Remove labels from buttons
-app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton:style(width: 30px !important; justify-content: flex-start !important;)
-app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton > svg:style(margin-right: 10px !important;)
+app.asana.com##div.ProjectShareButton-joinOrShare:style(width: 30px !important; justify-content: flex-start !important;)
+app.asana.com##div.ProjectShareButton-joinOrShare > div > svg:style(margin-right: 10px !important;)
+app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton > div:style(width: 30px !important; justify-content: flex-start !important;)
+app.asana.com##div.ProjectHeaderFacepile-joinOrShareButton > div > svg:style(margin-right: 10px !important;)
 app.asana.com##div.CustomizeMenuButton:style(width: 30px !important; justify-content: left !important;)
 app.asana.com##div.CustomizeMenuButton > img:style(padding-right: 10px !important;)
+app.asana.com##div.CustomizeMenuButton-notificationIndicatorButtonContainer > div:style(width: 30px !important; justify-content: left !important;)
+app.asana.com##div.CustomizeMenuButton-notificationIndicatorButtonContainer > div > svg:style(padding-right: 10px !important;)
+
 ! Draw line on the other side of customize panel
 app.asana.com##div.ProjectPageHeader-customizeMenuButtonContainer:style(border-right: 1px solid var(--color-border) !important; padding-left: 0px !important; padding-right: 8px !important; border-left: none !important;)
 
 ! Align elements in header
-app.asana.com##div.TopbarPageHeaderStructure-leftElement:style(margin-top: 3px !important;)
+app.asana.com##div.TopbarPageHeaderStructure-leftElement               :style(margin-top: 3px !important;)
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-leftElement:style(margin-top: 3px !important;)
-app.asana.com##div.TopbarPageHeaderStructure-rightChildrenWrapper:style(align-items: start !important; padding-top: 10px !important;)
+app.asana.com##div.TopbarPageHeaderStructure-rightChildrenWrapper               :style(align-items: start !important; padding-top: 10px !important;)
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-rightChildrenWrapper:style(align-items: start !important; padding-top: 10px !important;)
-app.asana.com##div.TopbarPageHeaderStructure-titleRow--withNav:style(min-height: 20px !important; margin-top: 6px !important;)
+app.asana.com##div.TopbarPageHeaderStructure-titleRow--withNav               :style(min-height: 20px !important; margin-top: 6px !important;)
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-titleRow--withNav:style(min-height: 20px !important; margin-top: 6px !important;)
+app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-topSection:style(min-height: 20px !important;)
+app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-titleAndBreadcrumbs:style(height: 100% !important;)
+app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-navMenuRow:style(padding-left: 55px !important; margin-top: -24px !important;)
 app.asana.com##div.FullWidthPageStructureWithDetailsOverlay-fullWidth:style(width: unset !important; min-width: unset !important;)
-app.asana.com##div.Breadcrumb
+app.asana.com##div.TopbarPageHeaderStructure-titleAndNav > div.Breadcrumb
 
 ! Reduce size of toolbar
 app.asana.com##div.ProjectSpreadsheetGridPageToolbar:style(height: 32px !important;)
@@ -133,3 +141,4 @@ app.asana.com##p.ProsemirrorEditor-paragraph:style(overflow: visible !important;
 ! Remove border around text block
 app.asana.com##div.RichText3-paragraph > code:style(border: none !important; border: none !important; padding-top: 3px !important; padding-bottom: 3px !important;)
 app.asana.com##p.ProsemirrorEditor-paragraph > code:style(border: none !important; border: none !important; padding-top: 3px !important; padding-bottom: 3px !important;)
+
