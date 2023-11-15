@@ -130,6 +130,10 @@ app.asana.com##div.TaskStoryFeed > div.FeedBlockStory:nth-of-type(2):style(paddi
 app.asana.com##.TextEditorFixedToolbar--hidden
 ! Remove top padding from ficus task view
 app.asana.com##div.FocusModePage:style(padding-top: 0px !important;)
+! Remove scrollbar from task context menu
+app.asana.com##div.MenuStructure.TaskPaneExtraActionsButton-menu:style(max-height: unset !important;)
+! Remove useless premium buttons from task context menu
+app.asana.com##div.ActionMenu > div > div[class*="PremiumIconItem"]
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Fix code text block visuals
