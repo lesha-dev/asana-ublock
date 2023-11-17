@@ -51,7 +51,10 @@ app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-titleRow--withNav:st
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-topSection:style(min-height: 20px !important;)
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-titleAndBreadcrumbs:style(height: 100% !important;)
 app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs-navMenuRow:style(padding-left: 55px !important; margin-top: -24px !important;)
+app.asana.com##div.TopbarPageHeaderStructureWithBreadcrumbs--withNavMenu:style(min-height: 0px !important;)
 app.asana.com##div.FullWidthPageStructureWithDetailsOverlay-fullWidth:style(width: unset !important; min-width: unset !important;)
+
+!Remove project breadcrumbs
 app.asana.com##div.TopbarPageHeaderStructure-titleAndNav > div.Breadcrumb
 
 ! Reduce size of toolbar
