@@ -92,6 +92,9 @@ app.asana.com##div.InboxFilterRow-toolbar:style(background-color: transparent !i
 app.asana.com##div.Inbox-feedPane:style(margin-top: -56px !important;)
 app.asana.com##div.Inbox-detailsPane:style(z-index: 200 !important;)
 app.asana.com##span.TabNavigationBarItem-selectableTabContainer > span:style(padding-bottom: 6px !important;)
+app.asana.com##div.InboxPanesOrEmptyState-pane:style(overflow: visible !important;)
+app.asana.com##div.InboxFilterRow-toolbar:style(margin-top: -56px !important;)
+app.asana.com##div.Inbox > div.InboxFilterRow-toolbar:style(margin-top: -56px !important; width: 50% !important; padding-left: 0px !important;)
 
 ! Make timestamp separator the same height as task header
 app.asana.com##div.InboxTimeSeparator:style(height: 32px !important;)
@@ -148,4 +151,3 @@ app.asana.com##p.ProsemirrorEditor-paragraph:style(overflow: visible !important;
 ! Remove border around text block
 app.asana.com##div.RichText3-paragraph > code:style(border: none !important; border: none !important; padding-top: 3px !important; padding-bottom: 3px !important;)
 app.asana.com##p.ProsemirrorEditor-paragraph > code:style(border: none !important; border: none !important; padding-top: 3px !important; padding-bottom: 3px !important;)
-
