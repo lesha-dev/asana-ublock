@@ -143,6 +143,8 @@ app.asana.com##div.FocusModePage:style(padding-top: 0px !important;)
 app.asana.com##div.MenuStructure.TaskPaneExtraActionsButton-menu:style(max-height: unset !important;)
 ! Remove useless premium buttons from task context menu
 app.asana.com##div.ActionMenu > div > div[class*="PremiumIconItem"]
+! Force projects to layout as column instead of grid
+app.asana.com##div.TaskProjects-projects > .TaskProjects-projectContainer:style(flex-direction: column !important; align-items: start !important;)
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Fix code text block visuals
