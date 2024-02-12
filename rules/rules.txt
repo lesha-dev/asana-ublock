@@ -103,7 +103,7 @@ app.asana.com##div.Inbox > div.InboxFilterRow-toolbar:style(margin-top: -56px !i
 app.asana.com##div.InboxTimeSeparator:style(height: 32px !important;)
 
 ! Remove stuck timestamp separator from Inbox
-app.asana.com##div.InboxTimeSeparator--stuck
+! app.asana.com##div.InboxTimeSeparator--stuck
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Task panel
